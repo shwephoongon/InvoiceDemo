@@ -1,0 +1,11 @@
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\bin\Debug\net8.0\InvoiceDemo.Dtos.deps.json
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\bin\Debug\net8.0\InvoiceDemo.Dtos.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\bin\Debug\net8.0\InvoiceDemo.Dtos.pdb
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\refint\InvoiceDemo.Dtos.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.pdb
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\ref\InvoiceDemo.Dtos.dll

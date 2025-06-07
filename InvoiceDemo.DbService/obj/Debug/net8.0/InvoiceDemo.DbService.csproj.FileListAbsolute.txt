@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\bin\Debug\net8.0\InvoiceDemo.DbService.deps.json
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\bin\Debug\net8.0\InvoiceDemo.DbService.runtimeconfig.json
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\bin\Debug\net8.0\InvoiceDemo.DbService.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\bin\Debug\net8.0\InvoiceDemo.DbService.pdb
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\refint\InvoiceDemo.DbService.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.pdb
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\InvoiceDemo.DbService.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.DbService\obj\Debug\net8.0\ref\InvoiceDemo.DbService.dll
