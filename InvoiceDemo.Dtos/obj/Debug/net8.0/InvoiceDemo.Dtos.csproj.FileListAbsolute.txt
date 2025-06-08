@@ -9,3 +9,4 @@ C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\Invoice
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\refint\InvoiceDemo.Dtos.dll
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.pdb
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\ref\InvoiceDemo.Dtos.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Dtos\obj\Debug\net8.0\InvoiceDemo.Dtos.sourcelink.json

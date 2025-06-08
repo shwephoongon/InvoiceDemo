@@ -3,26 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8E084CE-1DF9-46F3-B3CD-C92A136F0B69}|InvoiceDemo.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E084CE-1DF9-46F3-B3CD-C92A136F0B69}|InvoiceDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E99774-D995-4353-B873-BB55C3DF52B4}|..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.api\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E99774-D995-4353-B873-BB55C3DF52B4}|..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.api\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6E99774-D995-4353-B873-BB55C3DF52B4}|..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.api\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5F0F78-07EF-47C9-A5ED-8FFD4167599D}|..\\InvoiceDemo.Dtos\\InvoiceDemo.Dtos.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dtos\\createinvoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5F0F78-07EF-47C9-A5ED-8FFD4167599D}|..\\InvoiceDemo.Dtos\\InvoiceDemo.Dtos.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dtos\\createinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5F0F78-07EF-47C9-A5ED-8FFD4167599D}|..\\InvoiceDemo.Dtos\\InvoiceDemo.Dtos.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4509A98-E00E-4E95-A27D-20AADB399BB7}|..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dbservice\\data\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4509A98-E00E-4E95-A27D-20AADB399BB7}|..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dbservice\\models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4509A98-E00E-4E95-A27D-20AADB399BB7}|..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dbservice\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6E99774-D995-4353-B873-BB55C3DF52B4}|..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.api\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8E084CE-1DF9-46F3-B3CD-C92A136F0B69}|InvoiceDemo.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8E084CE-1DF9-46F3-B3CD-C92A136F0B69}|InvoiceDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF5F0F78-07EF-47C9-A5ED-8FFD4167599D}|..\\InvoiceDemo.Dtos\\InvoiceDemo.Dtos.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dtos\\createinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6E99774-D995-4353-B873-BB55C3DF52B4}|..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.api\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4509A98-E00E-4E95-A27D-20AADB399BB7}|..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dbservice\\invoicedemo.dbservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -52,12 +61,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6E99774-D995-4353-B873-BB55C3DF52B4}|..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.api\\invoicedemo.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4509A98-E00E-4E95-A27D-20AADB399BB7}|..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dbservice\\data\\invoicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF5F0F78-07EF-47C9-A5ED-8FFD4167599D}|..\\InvoiceDemo.Dtos\\InvoiceDemo.Dtos.csproj|c:\\users\\asus\\source\\repos\\invoicedemo\\invoicedemo.dtos\\createinvoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,66 +74,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ErrorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Dtos\\ErrorResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\InvoiceDemo.Dtos\\ErrorResponseDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Dtos\\ErrorResponseDto.cs",
+              "RelativeToolTip": "..\\InvoiceDemo.Dtos\\ErrorResponseDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T17:50:51.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InvoiceDemo.http",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.http",
-              "RelativeDocumentMoniker": "InvoiceDemo.http",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.http",
-              "RelativeToolTip": "InvoiceDemo.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-07T07:27:08.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InvoiceDemo.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.csproj",
-              "RelativeDocumentMoniker": "InvoiceDemo.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.csproj",
-              "RelativeToolTip": "InvoiceDemo.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-07T06:06:24.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InvoiceDemo.Api",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
-              "RelativeDocumentMoniker": "..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
-              "RelativeToolTip": "..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-07T07:25:04.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "..\\InvoiceDemo.DbService\\Models\\Invoice.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Models\\Invoice.cs",
-              "RelativeToolTip": "..\\InvoiceDemo.DbService\\Models\\Invoice.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA0wA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T17:58:55.788Z",
+              "WhenOpened": "2025-06-08T16:30:13.523Z",
               "EditorCaption": ""
             },
             {
@@ -141,46 +93,33 @@
               "RelativeDocumentMoniker": "..\\InvoiceDemo.Dtos\\CreateInvoiceDto.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Dtos\\CreateInvoiceDto.cs",
               "RelativeToolTip": "..\\InvoiceDemo.Dtos\\CreateInvoiceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T18:00:34.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "InvoiceRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceRepository.cs",
               "RelativeDocumentMoniker": "..\\InvoiceDemo.Api\\InvoiceRepository.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceRepository.cs",
               "RelativeToolTip": "..\\InvoiceDemo.Api\\InvoiceRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA5wBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T18:05:40.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InvoiceDemo.DbService.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
-              "RelativeDocumentMoniker": "..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
-              "RelativeToolTip": "..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-05T17:55:45.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InvoiceService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceService.cs",
               "RelativeDocumentMoniker": "..\\InvoiceDemo.Api\\InvoiceService.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceService.cs",
               "RelativeToolTip": "..\\InvoiceDemo.Api\\InvoiceService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T06:03:17.706Z",
               "EditorCaption": ""
@@ -188,6 +127,117 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "..\\InvoiceDemo.Api\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceController.cs",
+              "RelativeToolTip": "..\\InvoiceDemo.Api\\InvoiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T06:26:59.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateInvoiceItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
+              "RelativeDocumentMoniker": "..\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
+              "RelativeToolTip": "..\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:01:22.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:50:51.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvoiceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
+              "RelativeDocumentMoniker": "..\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
+              "RelativeToolTip": "..\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T06:58:03.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "..\\InvoiceDemo.DbService\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Models\\Invoice.cs",
+              "RelativeToolTip": "..\\InvoiceDemo.DbService\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:58:55.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InvoiceDemo.Api",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
+              "RelativeDocumentMoniker": "..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
+              "RelativeToolTip": "..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-07T07:25:04.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InvoiceDemo.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.csproj",
+              "RelativeDocumentMoniker": "InvoiceDemo.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.csproj",
+              "RelativeToolTip": "InvoiceDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-07T06:06:24.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvoiceDemo.http",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.http",
+              "RelativeDocumentMoniker": "InvoiceDemo.http",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\InvoiceDemo.http",
+              "RelativeToolTip": "InvoiceDemo.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-07T07:27:08.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvoiceDemo.DbService.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
+              "RelativeDocumentMoniker": "..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
+              "RelativeToolTip": "..\\InvoiceDemo.DbService\\InvoiceDemo.DbService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T17:55:45.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Invoicedetail.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Models\\Invoicedetail.cs",
               "RelativeDocumentMoniker": "..\\InvoiceDemo.DbService\\Models\\Invoicedetail.cs",
@@ -195,25 +245,11 @@
               "RelativeToolTip": "..\\InvoiceDemo.DbService\\Models\\Invoicedetail.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAxwBYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:52:43.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T13:52:43.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InvoiceController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceController.cs",
-              "RelativeDocumentMoniker": "..\\InvoiceDemo.Api\\InvoiceController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceController.cs",
-              "RelativeToolTip": "..\\InvoiceDemo.Api\\InvoiceController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAlwB0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:26:59.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "InvoiceDemo.Api.csproj",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
               "RelativeDocumentMoniker": "..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
@@ -221,12 +257,11 @@
               "RelativeToolTip": "..\\InvoiceDemo.Api\\InvoiceDemo.Api.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-05T18:04:55.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T18:04:55.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -234,12 +269,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-07T13:19:57.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T13:19:57.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -251,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -260,30 +294,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T07:28:02.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateInvoiceItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
-              "RelativeDocumentMoniker": "..\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
-              "RelativeToolTip": "..\\InvoiceDemo.Dtos\\CreateInvoiceItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:01:22.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "InvoiceDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
-              "RelativeDocumentMoniker": "..\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\InvoiceDemo\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
-              "RelativeToolTip": "..\\InvoiceDemo.DbService\\Data\\InvoiceDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:58:03.826Z"
             }
           ]
         }

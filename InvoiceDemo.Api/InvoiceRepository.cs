@@ -1,11 +1,6 @@
 ﻿using InvoiceDemo.DbService.Data;
 using InvoiceDemo.DbService.Models;
-using InvoiceDemo.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace InvoiceDemo.Api
 {
@@ -16,12 +11,27 @@ namespace InvoiceDemo.Api
         {
             _context = context;
         }
-        public async Task<Invoice> Create (Invoice invoice)
+
+        public async Task<List<Invoice>> GetAll()
+        {
+            return await _context.Invoices.Include(i => i.Invoicedetails).ToListAsync();
+        }
+        public async Task<Invoice> Create(Invoice invoice)
         {
             _context.Invoices.Add(invoice);
-           await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
             return invoice;
-
         }
+
+        public async Task<bool> InvoiceNoExistsAsync(string invoiceNo)
+        {
+            return await _context.Invoices.AnyAsync(i => i.InvoiceNo == invoiceNo);
+        }
+
+        public async Task<bool> StockCodeExistsAsync(string stockcode)
+        {
+            return await _context.Invoicedetails.AnyAsync(i => i.StockCode == stockcode);
+        }
+
     }
 }

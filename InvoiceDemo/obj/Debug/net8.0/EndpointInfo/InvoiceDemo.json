@@ -6,6 +6,42 @@
   },
   "paths": {
     "/api/v1/Invoice": {
+      "get": {
+        "tags": [
+          "Invoice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Invoice"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Invoice"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Invoice"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       "post": {
         "tags": [
           "Invoice"
@@ -96,38 +132,50 @@
   "components": {
     "schemas": {
       "CreateInvoiceDto": {
+        "required": [
+          "invoiceDate",
+          "invoiceNo",
+          "items"
+        ],
         "type": "object",
         "properties": {
           "invoiceNo": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "invoiceDate": {
             "type": "string",
             "format": "date-time"
           },
           "items": {
+            "minItems": 1,
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/CreateInvoiceItemDto"
-            },
-            "nullable": true
+            }
           }
         },
         "additionalProperties": false
       },
       "CreateInvoiceItemDto": {
+        "required": [
+          "description",
+          "price",
+          "stockCode"
+        ],
         "type": "object",
         "properties": {
           "stockCode": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "description": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "qty": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
             "format": "int32"
           },

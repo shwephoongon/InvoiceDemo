@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Api\obj\Debug\net8.0\InvoiceD
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Api\obj\Debug\net8.0\refint\InvoiceDemo.Api.dll
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Api\obj\Debug\net8.0\InvoiceDemo.Api.pdb
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Api\obj\Debug\net8.0\ref\InvoiceDemo.Api.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo.Api\obj\Debug\net8.0\InvoiceDemo.Api.sourcelink.json

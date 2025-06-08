@@ -6,7 +6,7 @@ namespace InvoiceDemo.Api
 {
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class InvoiceController : ControllerBase // Fix: Inherit from ControllerBase to access StatusCode method
+    public class InvoiceController : ControllerBase
     {
         private readonly InvoiceService _invoiceService;
         public InvoiceController(InvoiceService invoiceService)
@@ -14,23 +14,29 @@ namespace InvoiceDemo.Api
             _invoiceService = invoiceService;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<List<Invoice>>> GetAll()
+        {
+                var invoices = await _invoiceService.GetAllInvoices();
+                return Ok(invoices);
+          
+        }
+
         [HttpPost]
-        public async Task<ActionResult<Invoice>> CreateUser([FromBody] CreateInvoiceDto request)
+        public async Task<ActionResult<Invoice>> Create([FromBody] CreateInvoiceDto request)
         {
             try
             {
                 var invoice = await _invoiceService.Create(request);
-                //return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
-                return invoice;
+                return Ok(invoice);
             }
-            //catch (BusinessException ex)
-            //{
-            //    return BadRequest(new { message = ex.Message });
-            //}
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new ErrorResponseDto(ex.Message));
+            }
             catch (Exception ex)
             {
-                // Log the full exception
-                return StatusCode(500, new { message = "An error occurred while creating the invoice" });
+                return StatusCode(500, new ErrorResponseDto("An unexpected error occurred."));
             }
         }
     }

@@ -1,43 +1,38 @@
-﻿using AutoMapper;
-using InvoiceDemo.DbService.Models;
+﻿using InvoiceDemo.DbService.Models;
 using InvoiceDemo.Dtos;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InvoiceDemo.Api
 {
     public class InvoiceService
     {
         private readonly InvoiceRepository _invoiceRepository;
-        private readonly IMapper _mapper;
-        private readonly ILogger<InvoiceService> _logger;
 
-        public InvoiceService(
-       InvoiceRepository invoiceRepository,
-       IMapper mapper,
-       ILogger<InvoiceService> logger)
+        public InvoiceService(InvoiceRepository invoiceRepository)
         {
             _invoiceRepository = invoiceRepository;
-            _mapper = mapper;
-            _logger = logger;
         }
 
+        public async Task<List<Invoice>> GetAllInvoices()
+        {
+            return await _invoiceRepository.GetAll();
+        }
         public async Task<Invoice> Create(CreateInvoiceDto requestDto)
         {
-            _logger.LogInformation("Creating Invoice with No: {InvoiceNo}", requestDto.InvoiceNo);
 
-            //// Business validation
-            //if (await _productRepository.ExistsAsync(requestDto.Name))
-            //{
-            //    throw new BusinessValidationException("A product with this name already exists");
-            //}
 
-            // Map DTO to domain entity
-            //var invoice = _mapper.Map<Invoice>(requestDto);
+            if (await _invoiceRepository.InvoiceNoExistsAsync(requestDto.InvoiceNo))
+            {
+                throw new InvalidOperationException("Invoice No already exists");
+            }
+
+            foreach (var item in requestDto.Items)
+            {
+                if (await _invoiceRepository.StockCodeExistsAsync(item.StockCode))
+                {
+                    throw new InvalidOperationException($"Stock Code '{item.StockCode}' already exists");
+                }
+            }
+
             var invoice = new Invoice
             {
                 InvoiceNo = requestDto.InvoiceNo,
@@ -54,19 +49,7 @@ namespace InvoiceDemo.Api
             };
 
             return await _invoiceRepository.Create(invoice);
-            // invoice.CreatedAt = DateTime.UtcNow;
 
-            // Additional business logic here
-            // await ValidateCategory(product.CategoryId);
-
-            // Save to database
-          //  var createdInvoice = await _invoiceRepository.Create(invoice);
-
-          //  _logger.LogInformation("Invoice created successfully with Id: {Invoice Id}", createdInvoice.InvoiceId);
-
-            // Map domain entity to response DTO
-            //return _mapper.Map<ResponseDto>(createdInvoice);
-          //  return createdInvoice;
         }
 
     }

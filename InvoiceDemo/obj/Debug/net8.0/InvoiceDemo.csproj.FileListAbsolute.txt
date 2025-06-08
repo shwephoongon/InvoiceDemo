@@ -42,3 +42,4 @@ C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo\obj\Debug\net8.0\staticwebass
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo\obj\Debug\net8.0\InvoiceD.C45E1B24.Up2Date
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo\obj\Debug\net8.0\InvoiceDemo.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo\obj\Debug\net8.0\ref\InvoiceDemo.dll
+C:\Users\ASUS\source\repos\InvoiceDemo\InvoiceDemo\obj\Debug\net8.0\InvoiceDemo.sourcelink.json

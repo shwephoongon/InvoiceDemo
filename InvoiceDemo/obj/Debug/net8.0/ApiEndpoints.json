@@ -1,7 +1,27 @@
 [
   {
     "ContainingType": "InvoiceDemo.Api.InvoiceController",
-    "Method": "CreateUser",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Invoice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[InvoiceDemo.DbService.Models.Invoice, InvoiceDemo.DbService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "InvoiceDemo.Api.InvoiceController",
+    "Method": "Create",
     "RelativePath": "api/v1/Invoice",
     "HttpMethod": "POST",
     "IsController": true,

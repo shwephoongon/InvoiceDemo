@@ -9,21 +9,28 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.  
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddControllers()
      .PartManager
     .ApplicationParts
     .Add(new AssemblyPart(typeof(InvoiceController).Assembly));
+
 builder.Services.AddDbContext<InvoiceDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 36)) // Use your actual MySQL version
+        new MySqlServerVersion(new Version(8, 0, 36))
     ));
-builder.Services.AddAutoMapper(cfg =>
-{
-    cfg.CreateMap<CreateInvoiceDto, Invoice>();
-    // Add more mappings here
-}, typeof(Program).Assembly);
+
 builder.Services.AddScoped<InvoiceRepository>();
 builder.Services.AddScoped<InvoiceService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle  
@@ -40,6 +47,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowLocalFrontend");
 
 app.UseAuthorization();
 
