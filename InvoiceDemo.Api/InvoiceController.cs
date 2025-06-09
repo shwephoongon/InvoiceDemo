@@ -17,9 +17,31 @@ namespace InvoiceDemo.Api
         [HttpGet]
         public async Task<ActionResult<List<Invoice>>> GetAll()
         {
-                var invoices = await _invoiceService.GetAllInvoices();
-                return Ok(invoices);
-          
+            var invoices = await _invoiceService.GetAllInvoices();
+            return Ok(invoices);
+
+        }
+
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Invoice>> GetById(int id)
+        {
+            try
+            {
+                var invoice = await _invoiceService.GetInvoiceById(id);
+                if (invoice == null)
+                {
+                    return NotFound(new ErrorResponseDto("Invoice not found."));
+                }
+                return Ok(invoice);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new ErrorResponseDto(ex.Message));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new ErrorResponseDto("An unexpected error occurred."));
+            }
         }
 
         [HttpPost]
@@ -28,6 +50,26 @@ namespace InvoiceDemo.Api
             try
             {
                 var invoice = await _invoiceService.Create(request);
+                return Ok(invoice);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new ErrorResponseDto(ex.Message));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new ErrorResponseDto("An unexpected error occurred."));
+            }
+
+        }
+
+        [HttpPut("{id:int}")]
+
+        public async Task<ActionResult<Invoice>> Update(int id, [FromBody] CreateInvoiceDto request)
+        {
+            try
+            {
+                var invoice = await _invoiceService.Update(request, id);
                 return Ok(invoice);
             }
             catch (InvalidOperationException ex)
