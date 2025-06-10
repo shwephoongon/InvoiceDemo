@@ -83,7 +83,17 @@ namespace InvoiceDemo.Api
             existingInvoice.TotalQty = requestDto.Items.Sum(i => i.Qty);
             existingInvoice.TotalAmount = requestDto.Items.Sum(i => i.Qty * i.Price);
 
-            await _invoiceRepository.Update(existingInvoice, requestDto.Items);
+            await _invoiceRepository.RemoveDetailsAsync(existingInvoice);
+            existingInvoice.Invoicedetails = requestDto.Items.Select(i => new Invoicedetail
+            {
+                StockCode = i.StockCode,
+                Description = i.Description,
+                Qty = i.Qty,
+                Price = i.Price,
+                Amount = i.Price * i.Qty
+            }).ToList();
+
+            await _invoiceRepository.Update(existingInvoice);
 
             await _invoiceRepository.SaveChangesAsync();
 

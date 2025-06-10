@@ -48,29 +48,15 @@ namespace InvoiceDemo.Api
         {
             return await _context.Invoicedetails.AnyAsync(i => i.StockCode == stockcode);
         }
-      public async Task<bool> InvoiceExistsAsync(int id)
+        public async Task<bool> InvoiceExistsAsync(int id)
         {
             return await _context.Invoices.AnyAsync(i => i.InvoiceId == id);
         }
 
-        public async Task<Invoice>  Update(Invoice invoice)
+        public async Task<Invoice> Update(Invoice invoice)
         {
             _context.Invoices.Update(invoice);
-            await _context.SaveChangesAsync();
             return invoice;
-        }
-
-        public async Task Update(Invoice invoice, List<CreateInvoiceItemDto> items)
-        {
-            _context.Invoicedetails.RemoveRange(invoice.Invoicedetails);
-
-            invoice.Invoicedetails = items.Select(i => new Invoicedetail
-            {
-                StockCode = i.StockCode,
-                Description = i.Description,
-                Qty = i.Qty,
-                Price = i.Price
-            }).ToList();
         }
 
         public async Task SaveChangesAsync()
@@ -78,5 +64,10 @@ namespace InvoiceDemo.Api
             await _context.SaveChangesAsync();
         }
 
+        public async Task RemoveDetailsAsync(Invoice invoice)
+        {
+            _context.Invoicedetails.RemoveRange(invoice.Invoicedetails);
+
+        }
     }
 }
