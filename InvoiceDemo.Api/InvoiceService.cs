@@ -52,7 +52,8 @@ namespace InvoiceDemo.Api
                     StockCode = i.StockCode,
                     Description = i.Description,
                     Qty = i.Qty,
-                    Price = i.Price
+                    Price = i.Price,
+                    Amount = i.Price * i.Qty    
                 }).ToList(),
                 TotalQty = requestDto.Items.Sum(i => i.Qty),
                 TotalAmount = requestDto.Items.Sum(i => i.Qty * i.Price)
